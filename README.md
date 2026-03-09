@@ -17,3 +17,5 @@ Realização de DEBUGS no final da pagina do index.css
 02/03/2026 - Decidido criar README.md com histórico constante, até o momento, realizado divs na pagina de apresentação e ainda em constante em desenvolvimento, pretenção de acabar ainda hoje para seguir com o restante das paginas, as cores princípais do site serão com foco em preto e vermelho.
 
 4/3/2026 - Realizado começo para montagem do sobre mim, decido possívelmente background image para focalizar o texto e montando texto de apresentação, também mudado de Sobre -> Sobre mim e Projeto -> Portifólio e arrumado bug de position dos absolute.
+
+5/3/2026 - Desenvolvendo as aplicações da pagina do sobre mim
