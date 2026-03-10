@@ -16,7 +16,6 @@ body {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  flex-direction: column;
 }
 
 /* .bg {
@@ -690,7 +689,7 @@ Parte de cima do site, onde é responsável por toda topbar
   justify-content: center;
   align-items: center;
   align-content: center;
-  gap: 60px;
+  gap: 0px;
 }
 
 /* #formulario-absolute {
@@ -759,11 +758,22 @@ Parte de cima do site, onde é responsável por toda topbar
   padding: 10px 0;
 }
 
+#parte-baixo-forms {
+  width: 100%;
+  height: 70%;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  display: flex;
+  gap: 30px;
+}
+
 #formulario-meio {
   display: flex;
   width: 420px;
   flex-direction: column;
   gap: 10px;
+  align-items: center;
 }
 
 #formulario-meio h3 {
@@ -849,14 +859,93 @@ button:hover {
   opacity: 0.7;
 }
 
-/* responsivo */
-/* @media (max-width: 600px) {
-  #footer-container {
-    flex-direction: column;
-    gap: 8px;
-    text-align: center;
+/* responsividade para celular */
+
+@media screen and (max-width: 480px) {
+  * {
+    max-width: 100vw;
+    flex-wrap: wrap;
   }
-} */
+
+  /* INICIO PAGINA INICIAL */
+
+  #absoluto-inicio {
+    height: 900px;
+  }
+
+  #nomeapresentacao {
+    font-size: 300%;
+  }
+
+  #headerbar {
+    height: 100px;
+  }
+
+  #bannermid {
+    height: 700px;
+    gap: 50px;
+  }
+
+  #bartop-mid {
+    height: 50px;
+  }
+
+  /* PAGINA SOBRE MIM */
+
+  #absoluto-sobremim {
+    height: 1000px;
+  }
+  #conteudo-sobre {
+    height: 500px;
+  }
+  #parte-sobre {
+    height: 500px;
+  }
+
+  /* PAGINA HABILIDADES */
+
+  #absoluto-habilidades {
+    height: 900px;
+  }
+
+  /* PAGINA PORTIFOLIO */
+
+  #absoluto-portifolio {
+    height: 900px;
+  }
+
+  /* PAGINA */
+
+  #absoluto-contato {
+    height: 1000px;
+    flex-direction: column;
+  }
+
+  #container-contato {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  #formulario-absolute {
+    width: 400px;
+    height: 600px;
+  }
+
+  /* Campo mensagem maior */
+  input#meia-form:last-of-type {
+    height: 20px;
+  }
+
+  #meia-form {
+    width: 80%;
+  }
+
+  #footer-container {
+    width: 100%;
+    padding: 0px;
+  }
+}
 
 /* DEBUGS BORDERS PARA MODELAR SITE
           ORDEM DE CRIACAO          */
