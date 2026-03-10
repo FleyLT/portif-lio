@@ -19,3 +19,7 @@ Realização de DEBUGS no final da pagina do index.css
 4/3/2026 - Realizado começo para montagem do sobre mim, decido possívelmente background image para focalizar o texto e montando texto de apresentação, também mudado de Sobre -> Sobre mim e Projeto -> Portifólio e arrumado bug de position dos absolute.
 
 5/3/2026 - Desenvolvendo as aplicações da pagina do sobre mim
+
+6/3/2026 - Analisando ideias de como vai ficar o site e seguindo regras do trabalho
+
+9/3/2026 - Desenvolvendo as partes, Formação, Portifólio, Contato com agilidade, e a partir de hoje começar a já desenvolver aplicação para celular e analisar possível bugs da pagina contato e seguir adiante com o javascript para validação e @media para redimensionar.
