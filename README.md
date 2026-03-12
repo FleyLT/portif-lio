@@ -6,7 +6,7 @@ src/images = Nessa parte fica todas imagens utilizadas no site
 
 src/scripts = Nessa parte fica onde está os scrips em JS do site
 
-src/view = onde fica a parte HTML
+index.html = onde fica a parte HTML
 
 [Algumas regras no codigo]
 
